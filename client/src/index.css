@@ -1,0 +1,19 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  height: 100vh;
+}
+
+.dashboard__songs {
+  flex-grow: 1;
+  margin: 1rem 0;
+  overflow-y: auto;
+}
